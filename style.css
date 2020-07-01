@@ -4,6 +4,6 @@
     Version: 1
 */
 
-#back-to-top {
-    z-index: 10000;
+.back-to-top {
+    z-index: 10000 !important;
 }
