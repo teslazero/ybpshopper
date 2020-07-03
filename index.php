@@ -76,6 +76,8 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
       <div class="row align-items-center justify-content-between">
         <div class="col-12 col-md-6">
 
+            <h2 class="mb-7 text-primary d-block d-md-none text-center">Our mission</h2>
+
           <!-- Image -->
           <img src="<?php echo get_theme_file_uri('/assets/img/extra/blue-sanitary-pad.jpg'); ?>" alt="sanitary pads" class="img-fluid w-50">
 
@@ -85,10 +87,10 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
           </div>
 
         </div>
-        <div class="col-12 col-md-6 col-lg-5 mt-4">
+        <div class="col-12 col-md-6 col-lg-5 mt-md-4">
 
           <!-- Heading -->
-          <h2 class="mb-7 text-primary">Our mission</h2>
+          <h2 class="mb-7 text-primary d-none d-md-block">Our mission</h2>
 
           <!-- Text -->
           <p class="font-size-lg text-dark">
@@ -115,7 +117,7 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
           </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-5 mt-4">
+        <div class="col-12 col-md-6 col-lg-5 mt-7">
           <!-- Text -->
           <p class="font-size-lg text-dark">
             Since our co-founder Caterina was a young girl, she always felt
@@ -204,7 +206,8 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
         <div class="col-12 col-md-6 col-lg-5 mt-4">
 
           <!-- Heading -->
-          <h2 class="mb-7 text-primary">Our Values</h2>
+          <h2 class="mb-7 text-primary text-center d-md-none">Our Values</h2>
+          <h2 class="mb-7 text-primary d-none d-md-block">Our Values</h2>
 
           <!-- Text -->
           <p class="font-size-lg text-dark">
