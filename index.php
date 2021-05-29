@@ -18,7 +18,7 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
 
         <!-- Text -->
         <p class="font-size-h5 my-8">
-          We are working to launch a platform to help you have <span class="font-weight-bold">the best period of your life!</span>
+          We are working to launch a platform to give you <span class="font-weight-bold">the best period of your life!</span>
         </p>
 
         <!-- Form -->
@@ -70,20 +70,20 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
   </div>
 </section>
 
-<div class="background-pattern">
+<div>
   <section class="py-md-6">
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-12 col-md-6">
 
-            <h2 class="mb-7 text-primary d-block d-md-none text-center">Our mission</h2>
+          <h2 class="mb-7 text-primary d-block d-md-none text-center">Our mission</h2>
 
           <!-- Image -->
-          <img src="<?php echo get_theme_file_uri('/assets/img/extra/blue-sanitary-pad.jpg'); ?>" alt="sanitary pads" class="img-fluid w-50">
+          <img src="<?php echo get_theme_file_uri('/assets/img/landing/mission1.jpg'); ?>" alt="sanitary pads" class="img-fluid w-50">
 
           <!-- Image -->
           <div class="text-right mt-n13 mt-lg-n15 mb-10 mb-md-0">
-            <img src="<?php echo get_theme_file_uri('/assets/img/extra/menstrual-cup.jpg'); ?>" alt="menstrual cup" class="img-fluid w-75">
+            <img src="<?php echo get_theme_file_uri('/assets/img/landing/mission2.jpg'); ?>" alt="menstrual cup" class="img-fluid w-75">
           </div>
 
         </div>
@@ -94,177 +94,82 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
 
           <!-- Text -->
           <p class="font-size-lg text-dark">
-            With <span class="lead font-weight-bold">Your Best Period</span> we want to be able
-            to offer you everything you need to have a
-            better period while being eco-conscious and
-            inclusive: this means many things and it
-            can be different for each one of us but here
-            you'll find some info on how we are going to do this!
+            With <span class="lead font-weight-bold">Your Best Period</span> we’ll offer you
+            everything you need to have a better period while being eco-conscious and inclusive.
+            Keep reading if you want to know more about the project!
           </p>
 
-        </div>
-      </div>
-    </div>
-
-
-  <section class="py-md-6">
-    <div class="container">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-12 d-md-none">
-          <!-- Image -->
-          <div class="text-center">
-            <img src="<?php echo get_theme_file_uri('/assets/img/extra/caterina.jpg'); ?>" alt="caterina" class="img-fluid w-75">
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-5 mt-7">
-          <!-- Text -->
-          <p class="font-size-lg text-dark">
-            Since our co-founder Caterina was a young girl, she always felt
-            there was a lot of misconception around this topic and growing up
-            she understood that those misconceptions came many many times from a place
-            of bad information and ignorance.
-            Now, we want to end this and start a new chapter.
-          </p>
-
-        </div>
-        <div class="d-none d-md-block col-md-6">
-          <!-- Image -->
-          <div class="text-right">
-            <img src="<?php echo get_theme_file_uri('/assets/img/extra/caterina.jpg'); ?>" alt="caterina" class="img-fluid w-75">
-          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="py-6">
+  <section class="py-6 py-md-12">
     <div class="container-fluid">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center align-items-center">
         <div class="col-12 text-center">
           <h2 class="mb-7 text-primary">What we do</h2>
         </div>
-        <div class="col-12 col-md-5 d-flex align-items-center py-8">
-          <img src="<?php echo get_theme_file_uri('/assets/img/extra/menstrual-cup-i.png'); ?>" alt="menstrual cup" class="img-fluid w-40">
-          <p class="font-size-lg text-dark px-6">
-            We'll provide the best period products on the market: tampons, pads,
-            reusable pads, menstrual cups, discs, underwear and more...
-          </p>
-        </div>
-        <div class="col-12 col-md-5 d-flex align-items-center py-8">
-          <img src="<?php echo get_theme_file_uri('/assets/img/extra/chocolate-i.png'); ?>" alt="chocolate" class="img-fluid w-40 d-none d-md-block">
-          <p class="font-size-lg text-dark px-6">
-            We'll offer you some great snacks and comfort food, because we know
-            everything about those period cravings!
-          </p>
-          <img src="<?php echo get_theme_file_uri('/assets/img/extra/chocolate-i.png'); ?>" alt="chocolate" class="img-fluid w-40 d-block d-md-none">
+
+        <div class="col-12 col-md-5 d-flex justify-content-center d-md-none mb-7">
+          <img src="<?php echo get_theme_file_uri('/assets/img/landing/whatwedo.jpg'); ?>" alt="menstrual cup" class="img-fluid w-75">
         </div>
 
-        <div class="col-12 col-md-5 d-flex align-items-center py-8">
-          <img src="<?php echo get_theme_file_uri('/assets/img/extra/candle-i.png'); ?>" alt="candle" class="img-fluid w-40 d-block d-md-none">
-          <p class="font-size-lg text-dark px-6">
-            You'll find products to create a relaxing and chilling atmosphere to
-            help you  reduce stress, pain and mood swings. These wonderful products
-            will keep you in a good mindset!
-          </p>
-          <img src="<?php echo get_theme_file_uri('/assets/img/extra/candle-i.png'); ?>" alt="candle" class="img-fluid w-40 d-none d-md-block">
-        </div>
-        <div class="col-12 col-md-5 d-flex align-items-center py-8">
-          <p class="font-size-lg text-dark px-6">
-            We are creating a platform where you'll be watching video courses created from
-            professionals to give you suggestions, information, tips and everything you
-            could imagine about the period topic.
-          </p>
-          <img src="<?php echo get_theme_file_uri('/assets/img/extra/yoga-i.png'); ?>" alt="yoga" class="img-fluid w-40">
-        </div>
+        <div class="col-12 col-md-5">
+          <h6 class="px-6">PERIOD CARE</h6>
 
-
-        <div class="col-12 col-md-5 d-flex align-items-center py-8">
-          <img src="<?php echo get_theme_file_uri('/assets/img/extra/cup-i.png'); ?>" alt="cup" class="img-fluid w-40">
           <p class="font-size-lg text-dark px-6">
-            Our job is to raise awareness about the period and scream to the world that
-            this is normal! That's why we have selected for you some amazing products
-            created by artists and illustrators who embrace this cause.
+            We’ll provide the best period products on the market: tampons, pads, reusable pads, menstrual cups, discs, underwear and more
+          </p>
+
+          <h6 class="px-6">AWARENESS</h6>
+
+          <p class="font-size-lg text-dark px-6">
+            We’re here to raise awareness and fight the stigma around the period topic. That’s why we involved in our project artists and illustrators who embrace this cause.
+          </p>
+
+          <h6 class="px-6">COMFORT</h6>
+
+          <p class="font-size-lg text-dark px-6">
+            You’ll find amazing goodies  to help you reduce stress, pain and mood swings. These wonderful products will keep you in a good mindset!
           </p>
         </div>
-        <div class="col-12 col-md-5 d-flex align-items-center py-8">
-          <img src="<?php echo get_theme_file_uri('/assets/img/extra/learning-i.png'); ?>" alt="learning" class="img-fluid w-40 d-none d-md-block">
-          <p class="font-size-lg text-dark px-6">
-            You'll be able to book a private consultation with our customer care for help on
-            the products and with a professional gyno to help you find an answer to your
-            more specific and medical question, too!
-          </p>
-          <img src="<?php echo get_theme_file_uri('/assets/img/extra/learning-i.png'); ?>" alt="learning" class="img-fluid w-40 d-block d-md-none">
+        <div class="col-12 col-md-5 justify-content-center d-none d-md-flex">
+          <img src="<?php echo get_theme_file_uri('/assets/img/landing/whatwedo.jpg'); ?>" alt="menstrual cup" class="img-fluid w-75">
         </div>
       </div>
     </div>
   </section>
 
-  <section class="py-md-6">
+  <section class="py-md-6 mb-10">
     <div class="container">
       <div class="row align-items-center justify-content-between">
-        <div class="col-12 col-md-6 col-lg-5 mt-4">
-
-          <!-- Heading -->
-          <h2 class="mb-7 text-primary text-center d-md-none">Our Values</h2>
-          <h2 class="mb-7 text-primary d-none d-md-block">Our Values</h2>
-
-          <!-- Text -->
-          <p class="font-size-lg text-dark">
-            But let's be clear... it's not only about what we do
-            but especially about how we do it. Yes, because all of
-            this is driven by or values!
-          </p>
-
-        </div>
         <div class="col-12 col-md-6">
+          <h2 class="mb-7 text-primary d-block d-md-none text-center">Our mission</h2>
 
           <!-- Image -->
-          <img src="<?php echo get_theme_file_uri('/assets/img/extra/mentrual-underwear.jpg'); ?>" alt="menstrual underwear" class="img-fluid w-75">
+          <img src="<?php echo get_theme_file_uri('/assets/img/landing/values2.jpg'); ?>" alt="sanitary pads" class="img-fluid w-50">
 
           <!-- Image -->
           <div class="text-right mt-n13 mt-lg-n15 mb-10 mb-md-0">
-            <img src="<?php echo get_theme_file_uri('/assets/img/extra/pink-sanitary-pad.jpg'); ?>" alt="pink sanitary pad" class="img-fluid w-50">
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-md-6">
-    <div class="container">
-      <div class="row align-items-center justify-content-between">
-        <div class="col-12 text-center">
-          <h2 class="mb-7 text-primary">How we do it!</h2>
-        </div>
-
-        <div class="col-12 col-md-10 d-flex align-items-center flex-column flex-md-row">
-          <img src="<?php echo get_theme_file_uri('/assets/img/extra/flowers-i.png'); ?>" alt="learning" class="img-fluid w-40">
-          <div>
-            <p class="font-size-lg text-dark px-6">
-              We believe in offering you <span class="font-weight-bold">ethical</span> and <span class="font-weight-bold">sustainable</span> products: we are aware of the fact
-              that menstrual products have a big impact on the environment and that's why we have decided to work only
-              with brands that watch out for this.
-            </p>
-            <p class="font-size-lg text-dark px-6">
-              Some of them use organic materials, some plastic free packaging, other create only reusable products. The food is mainly
-              vegan and all brands we work with manufacture their products respecting labor rights and avoiding child labor completely.
-            </p>
+            <img src="<?php echo get_theme_file_uri('/assets/img/landing/values1.jpg'); ?>" alt="menstrual cup" class="img-fluid w-75">
           </div>
         </div>
-        <div class="col-12 offset-md-2 col-md-10 d-flex align-items-center flex-column flex-md-row">
-          <img src="<?php echo get_theme_file_uri('/assets/img/extra/hands-i.png'); ?>" alt="learning" class="img-fluid w-40">
-          <div>
-            <p class="font-size-lg text-dark px-6">
-              We think <span class="font-weight-bold">inclusivity</span> must be present in the conversation as still
-              in these days we see how it's not happening.
-            </p>
-            <p class="font-size-lg text-dark px-6">
-              We'll include in the conversation evey person who usually doesn't feel included, starting from the idea that
-              a person who has a menstrual cycle is not always a woman.
-            </p>
-          </div>
+
+        <div class="col-12 col-md-6 col-lg-5 mt-md-4">
+          <!-- Heading -->
+          <h2 class="mb-7 text-primary d-none d-md-block">Our values</h2>
+
+          <!-- Text -->
+          <h6>SUSTAINABILITY</h6>
+          <p class="font-size-lg text-dark">
+            We are aware of the fact that menstrual products have a big impact on the environment and that’s why we have decided to work keeping this in mind.
+          </p>
+
+          <h6>INCLUSIVITY</h6>
+          <p class="font-size-lg text-dark">
+              Inclusivity needs to have a big space in the conversation. We’ll include in the conversation every person who usually doesn’t for any kind of reason, starting from the idea that a person who has a menstrual cycle is not always a woman.
+          </p>
         </div>
       </div>
     </div>
