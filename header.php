@@ -78,6 +78,37 @@ M516.199282 202.933296 C517.941348 206.024604 520.748660 208.923530 520.627016 2
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
+        <li class="nav-item dropdown hovered ml-n4">
+          <?php
+            $languages = icl_get_languages('skip_missing=0&orderby=code');
+
+            if(!empty($languages)){
+              foreach($languages as $l){
+                if($l['active']) {
+                  echo '<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">
+                                <img class="mb-1 mr-1" src="'.$l['country_flag_url'].'">
+                            </a>';
+                }
+              }
+            }
+          ?>
+
+            <!-- Menu -->
+            <div class="dropdown-menu minw-0">
+              <?php
+                if(!empty($languages)) {
+                  foreach ($languages as $l) {
+                    if (!$l['active']) {
+                      echo '<a class="dropdown-item" href="'.$l['url'].'">
+                                <img class="mb-1 mr-2" src="'.$l['country_flag_url'].'">
+                              </a>';
+                    }
+                  }
+                }
+              ?>
+            </div>
+
+        </li>
     </ul>
 
   </div>
