@@ -106,7 +106,7 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
 
   <section class="py-6 py-md-12">
     <div class="container-fluid">
-      <div class="row justify-content-center align-items-center">
+      <div class="row justify-content-center">
         <div class="col-12 text-center">
           <h2 class="mb-7 text-primary"><?php echo __('What we do', 'ybp') ?></h2>
         </div>
@@ -134,7 +134,7 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
             <?php echo __('You’ll find amazing goodies  to help you reduce stress, pain and mood swings. These wonderful products will keep you in a good mindset!', 'ybp') ?>
           </p>
         </div>
-        <div class="col-12 col-md-5 justify-content-center d-none d-md-flex">
+        <div class="col-12 col-md-5 justify-content-center align-items-center d-none d-md-flex">
           <img src="<?php echo get_theme_file_uri('/assets/img/landing/whatwedo.jpg'); ?>" alt="menstrual cup" class="img-fluid w-75">
         </div>
       </div>
