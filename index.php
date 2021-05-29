@@ -115,7 +115,7 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
           <img src="<?php echo get_theme_file_uri('/assets/img/landing/whatwedo.jpg'); ?>" alt="menstrual cup" class="img-fluid w-75">
         </div>
 
-        <div class="col-12 col-md-5">
+        <div class="col-12 col-md-5 d-flex flex-column justify-content-center">
           <h6 class="px-6"><?php echo __('PERIOD CARE', 'ybp') ?></h6>
 
           <p class="font-size-lg text-dark px-6">
@@ -134,8 +134,10 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
             <?php echo __('You’ll find amazing goodies  to help you reduce stress, pain and mood swings. These wonderful products will keep you in a good mindset!', 'ybp') ?>
           </p>
         </div>
-        <div class="col-12 col-md-5 justify-content-center align-items-center d-none d-md-flex">
-          <img src="<?php echo get_theme_file_uri('/assets/img/landing/whatwedo.jpg'); ?>" alt="menstrual cup" class="img-fluid w-75">
+        <div class="col-12 col-md-5 justify-content-center d-none d-md-flex">
+          <div class="text-center">
+            <img src="<?php echo get_theme_file_uri('/assets/img/landing/whatwedo.jpg'); ?>" alt="menstrual cup" class="img-fluid w-75">
+          </div>
         </div>
       </div>
     </div>
