@@ -7,9 +7,9 @@
       <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center text-white mt-10" >
 
         <!-- Heading -->
-        <h1><?php __('It’s Coming Soon!', 'ybp') ?></h1>
+        <h1><?php echo __('It’s Coming Soon!', 'ybp') ?></h1>
         <p class="lead">
-          <?php __('No, we are not talking about your period:', 'ybp') ?>: <span class="font-weight-bold"><?php __('it’s just us.', 'ybp') ?></span>
+          <?php echo __('No, we are not talking about your period:', 'ybp') ?>: <span class="font-weight-bold"><?php echo __('it’s just us.', 'ybp') ?></span>
         </p>
 
         <svg width="100px" height="50px" version="1.1" id="Contours" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-0.000015 0.000055 844.819092 122.170540" enable-background="new 0 0 844.819092 844.819092" xml:space="preserve" stroke="black" fill="none" stroke-linecap='round' stroke-linejoin='round'><path class="selected wave-path"  fill="white" opacity="1.000000" stroke="none"
@@ -18,7 +18,7 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
 
         <!-- Text -->
         <p class="font-size-h5 my-8">
-          <?php __('We are working to launch a platform to give you', 'ybp') ?> <span class="font-weight-bold"><?php __('the best period of your life!', 'ybp') ?></span>
+          <?php echo __('We are working to launch a platform to give you', 'ybp') ?> <span class="font-weight-bold"><?php echo __('the best period of your life!', 'ybp') ?></span>
         </p>
 
         <!-- Form -->
@@ -29,7 +29,7 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
           <!-- Input -->
           <div class="form-group mb-md-0">
             <label class="sr-only" for="comingSoonEmail"></label>
-            <input class="form-control form-control-light" id="comingSoonEmail" type="email" placeholder="<?php __('Enter Email', 'ybp') ?> *" name="ne">
+            <input class="form-control form-control-light" id="comingSoonEmail" type="email" placeholder="<?php echo __('Enter Email', 'ybp') ?> *" name="ne">
           </div>
 
         </div>
@@ -37,14 +37,14 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
 
                   <!-- Button -->
                   <button class="btn btn-light" type="submit">
-                    <?php __('Notify me!', 'ybp') ?>
+                    <?php echo __('Notify me!', 'ybp') ?>
                   </button>
 
         </div>
 
         </div>
         </form>
-        <p class="font-size-h5 text-white mt-4"><?php __('Be the first one to know when we are launching!', 'ybp') ?></p>
+        <p class="font-size-h5 text-white mt-4"><?php echo __('Be the first one to know when we are launching!', 'ybp') ?></p>
       </div>
     </div>
     <div class="row bottom-wave clouds-pattern">
@@ -59,7 +59,7 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
   <div class="container-fluid d-flex flex-column clouds-pattern">
     <div class="row justify-content-center align-items-center">
       <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center" >
-        <p class="text-dark font-size-h2"><em><?php __('We are on a mission to help you have the best period of your life!', 'ybp') ?></em></p>
+        <p class="text-dark font-size-h2"><em><?php echo __('We are on a mission to help you have the best period of your life!', 'ybp') ?></em></p>
       </div>
       <div class="col-12 text-center" >
         <svg width="100px" height="50px" version="1.1" id="Contours" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-0.000015 0.000055 844.819092 122.170540" enable-background="new 0 0 844.819092 844.819092" xml:space="preserve" stroke="black" fill="none" stroke-linecap='round' stroke-linejoin='round'><path class="selected wave-path"  fill="#c57460" opacity="1.000000" stroke="none"
@@ -76,7 +76,7 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
       <div class="row align-items-center justify-content-between">
         <div class="col-12 col-md-6">
 
-          <h2 class="mb-7 text-primary d-block d-md-none text-center"><?php __('Our mission', 'ybp') ?></h2>
+          <h2 class="mb-7 text-primary d-block d-md-none text-center"><?php echo __('Our mission', 'ybp') ?></h2>
 
           <!-- Image -->
           <img src="<?php echo get_theme_file_uri('/assets/img/landing/mission1.jpg'); ?>" alt="sanitary pads" class="img-fluid w-50">
@@ -90,11 +90,11 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
         <div class="col-12 col-md-6 col-lg-5 mt-md-4">
 
           <!-- Heading -->
-          <h2 class="mb-7 text-primary d-none d-md-block"><?php __('Our mission', 'ybp') ?></h2>
+          <h2 class="mb-7 text-primary d-none d-md-block"><?php echo __('Our mission', 'ybp') ?></h2>
 
           <!-- Text -->
           <p class="font-size-lg text-dark">
-            <?php __('With', 'ybp') ?> <span class="lead font-weight-bold">Your Best Period</span> <?php __('we’ll offer you
+            <?php echo __('With', 'ybp') ?> <span class="lead font-weight-bold">Your Best Period</span> <?php echo __('we’ll offer you
             everything you need to have a better period while being eco-conscious and inclusive.
             Keep reading if you want to know more about the project!', 'ybp') ?>
           </p>
@@ -108,7 +108,7 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
     <div class="container-fluid">
       <div class="row justify-content-center align-items-center">
         <div class="col-12 text-center">
-          <h2 class="mb-7 text-primary"><?php __('What we do', 'ybp') ?></h2>
+          <h2 class="mb-7 text-primary"><?php echo __('What we do', 'ybp') ?></h2>
         </div>
 
         <div class="col-12 col-md-5 d-flex justify-content-center d-md-none mb-7">
@@ -116,22 +116,22 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
         </div>
 
         <div class="col-12 col-md-5">
-          <h6 class="px-6"><?php __('PERIOD CARE', 'ybp') ?></h6>
+          <h6 class="px-6"><?php echo __('PERIOD CARE', 'ybp') ?></h6>
 
           <p class="font-size-lg text-dark px-6">
-            <?php __('We’ll provide the best period products on the market: tampons, pads, reusable pads, menstrual cups, discs, underwear and more', 'ybp') ?>
+            <?php echo __('We’ll provide the best period products on the market: tampons, pads, reusable pads, menstrual cups, discs, underwear and more', 'ybp') ?>
           </p>
 
-          <h6 class="px-6"><?php __('AWARENESS', 'ybp') ?></h6>
+          <h6 class="px-6"><?php echo __('AWARENESS', 'ybp') ?></h6>
 
           <p class="font-size-lg text-dark px-6">
-            <?php __('We’re here to raise awareness and fight the stigma around the period topic. That’s why we involved in our project artists and illustrators who embrace this cause.', 'ybp') ?>
+            <?php echo __('We’re here to raise awareness and fight the stigma around the period topic. That’s why we involved in our project artists and illustrators who embrace this cause.', 'ybp') ?>
           </p>
 
-          <h6 class="px-6"><?php __('COMFORT', 'ybp') ?></h6>
+          <h6 class="px-6"><?php echo __('COMFORT', 'ybp') ?></h6>
 
           <p class="font-size-lg text-dark px-6">
-            <?php __('You’ll find amazing goodies  to help you reduce stress, pain and mood swings. These wonderful products will keep you in a good mindset!', 'ybp') ?>
+            <?php echo __('You’ll find amazing goodies  to help you reduce stress, pain and mood swings. These wonderful products will keep you in a good mindset!', 'ybp') ?>
           </p>
         </div>
         <div class="col-12 col-md-5 justify-content-center d-none d-md-flex">
@@ -145,7 +145,7 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-12 col-md-6">
-          <h2 class="mb-7 text-primary d-block d-md-none text-center"><?php __('', 'ybpO) ?>ur values', 'ybp') ?></h2>
+          <h2 class="mb-7 text-primary d-block d-md-none text-center"><?php echo __('', 'ybpO) ?>ur values', 'ybp') ?></h2>
 
           <!-- Image -->
           <img src="<?php echo get_theme_file_uri('/assets/img/landing/values2.jpg'); ?>" alt="sanitary pads" class="img-fluid w-50">
@@ -158,17 +158,17 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
 
         <div class="col-12 col-md-6 col-lg-5 mt-md-4">
           <!-- Heading -->
-          <h2 class="mb-7 text-primary d-none d-md-block"><?php __('Our values', 'ybp') ?></h2>
+          <h2 class="mb-7 text-primary d-none d-md-block"><?php echo __('Our values', 'ybp') ?></h2>
 
           <!-- Text -->
-          <h6><?php __('SUSTAINABILITY', 'ybp') ?></h6>
+          <h6><?php echo __('SUSTAINABILITY', 'ybp') ?></h6>
           <p class="font-size-lg text-dark">
-            <?php __('We are aware of the fact that menstrual products have a big impact on the environment and that’s why we have decided to work keeping this in mind.', 'ybp') ?>
+            <?php echo __('We are aware of the fact that menstrual products have a big impact on the environment and that’s why we have decided to work keeping this in mind.', 'ybp') ?>
           </p>
 
-          <h6><?php __('INCLUSIVITY', 'ybp') ?></h6>
+          <h6><?php echo __('INCLUSIVITY', 'ybp') ?></h6>
           <p class="font-size-lg text-dark">
-              <?php __('Inclusivity needs to have a big space in the conversation. We’ll include in the conversation every person who usually doesn’t for any kind of reason, starting from the idea that a person who has a menstrual cycle is not always a woman.', 'ybp') ?>
+              <?php echo __('Inclusivity needs to have a big space in the conversation. We’ll include in the conversation every person who usually doesn’t for any kind of reason, starting from the idea that a person who has a menstrual cycle is not always a woman.', 'ybp') ?>
           </p>
         </div>
       </div>
