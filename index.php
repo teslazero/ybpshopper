@@ -9,7 +9,7 @@
         <!-- Heading -->
         <h1><?php echo __('It’s Coming Soon!', 'ybp') ?></h1>
         <p class="lead">
-          <?php echo __('No, we are not talking about your period:', 'ybp') ?>: <span class="font-weight-bold"><?php echo __('it’s just us.', 'ybp') ?></span>
+          <?php echo __('No, we are not talking about your period:', 'ybp') ?> <span class="font-weight-bold"><?php echo __('it’s just us.', 'ybp') ?></span>
         </p>
 
         <svg width="100px" height="50px" version="1.1" id="Contours" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-0.000015 0.000055 844.819092 122.170540" enable-background="new 0 0 844.819092 844.819092" xml:space="preserve" stroke="black" fill="none" stroke-linecap='round' stroke-linejoin='round'><path class="selected wave-path"  fill="white" opacity="1.000000" stroke="none"
