@@ -23,6 +23,8 @@ M96.579818 60.197088 C88.743636 62.200018 80.994613 63.294378 74.159286 66.39972
 
         <!-- Form -->
         <form method="post" action="<?php echo site_url(); ?>/?na=s">
+            <input type="hidden" name="nlang" value="<?php echo ICL_LANGUAGE_CODE; ?>">
+
             <div class="form-row">
                 <div class="col-12 col-md">
 
